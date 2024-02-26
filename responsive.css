@@ -1,0 +1,67 @@
+@media (max-width: 770px) {
+  section {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .navigation {
+    display: none;
+  }
+
+  .side-but{
+    display: block;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .about-container {
+    text-align: center;
+  }
+
+  .about-info {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap-reverse;
+  }
+
+  .about-info > p {
+    width: 100%;
+  }
+
+  .profile {
+    width: 300px;
+    height: 300px;
+    margin: 30px 0px;
+  }
+
+  .skill-icons > div {
+    padding: 20px;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  .cards-container {
+    padding: 10px;
+  }
+
+  .card {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto;
+    /* padding: 5px; */
+  }
+
+  .card-info {
+    grid-row-start: 2;
+  }
+
+  #projects {
+    /* height: 2000px; */
+  }
+}
